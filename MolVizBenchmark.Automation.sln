@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MolVizBenchmark.Automation", "MolVizBenchmark.Automation.csproj", "{FEAE1F2E-D5F6-4407-A132-D9F88579A19E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEAE1F2E-D5F6-4407-A132-D9F88579A19E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAE1F2E-D5F6-4407-A132-D9F88579A19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAE1F2E-D5F6-4407-A132-D9F88579A19E}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{FEAE1F2E-D5F6-4407-A132-D9F88579A19E}.Development|Any CPU.Build.0 = Development|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FB6CB07-5E4D-4B3E-81C5-52CE0FF1109C}
+	EndGlobalSection
+EndGlobal
