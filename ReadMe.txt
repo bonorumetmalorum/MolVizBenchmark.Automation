@@ -13,4 +13,4 @@ To be able to run this project follow the steps as described:
 
 6. Now that the automation project has been compiled run the following command from the "UnrealEngine\Engine\Build\BatchFiles" directory
 
-.\RunUAT.bat RunUnreal -project="...\MolViz\MolViz.uproject" -test=MyFirstTest -build="...\Benchmark" -uploaddir="...\Benchmark\Perf"
+.\RunUAT.bat RunUnreal -project="...\MolViz\MolViz.uproject" -test=Benchmark -build="...\Benchmark" -uploaddir="...\Benchmark\Perf"

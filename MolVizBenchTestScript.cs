@@ -11,17 +11,19 @@ using EpicGame;
 using System.Diagnostics;
 using AutomationTool;
 
+//taken from https://horugame.com/gauntlet-automated-testing-and-performance-metrics-in-ue4/
+
 namespace UE4Game
 {
 	/// <summary>
 	/// Runs Gauntlet automated tests.
 	/// </summary>
-	public class MyFirstTest : DefaultTest
+	public class Benchmark : DefaultTest
 	{
 		private string PerfReportToolPath = "C:/Users/Govind/Documents/UnrealEngine/Engine/Binaries/DotNET/CsvTools/PerfreportTool.exe";
 		private string GauntletController = "MolVizGauntletTestController";
 
-		public MyFirstTest(Gauntlet.UnrealTestContext InContext)
+		public Benchmark(Gauntlet.UnrealTestContext InContext)
 			: base(InContext)
 		{
 		}
